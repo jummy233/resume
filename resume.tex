@@ -5,82 +5,73 @@
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font
 \usepackage{url}
-\setlength{\textheight}{9.5in} % increase text height to fit on 1-page
+\usepackage{enumitem}
+\setlength{\textheight}{12.5in} % increase text height to fit on 1-page
 
 \begin{document}
 
 \name{JINYANG YAO\\[12pt]}     % the \\[12pt] adds a blank
 				        % line after name
 
-\address{jimmy123good@hotmail.com \\ github.com/jummy233\\ (250) 899 2600}
+\address{jimmy123good@hotmail.com \\ github.com/jummy233\\ jummy233.github.io/home \\ (250) 899 2600}
 \begin{resume}
 
-\section{EDUCATION }
-The University of British Columbia, Kelowna, BC, Canada  \hspace{1.4in} \textbf{2017-Present}\\
-    Current third year undergraduate student. Major in Computer Science, minor in Math \\
+\section{EDUCATION}
+The University of British Columbia, Kelowna, BC, Canada  \hspace{1.2in} \textbf{2017-Present}\\
+    Current third year undergraduate student. Major in Computer Science, minor in Mathematics \\
 
 \section{PROJECTS}
+
     \vspace{-0.1in}
     \begin{tabbing}
-        \hspace{2.4in}\= \hspace{0.3in}\= \kill
-        {\bf An optimizer for building design} \>               \>\url{https://github.com/jummy233/epMoo}\\
+        \hspace{2.4in}\= \hspace{0.9in}\= \kill
+        {\bf Chongqing University's HVAC platform} \>                   \>\url{github.com/jummy233/135Server}\\
+    \end{tabbing}\vspace{-30pt}
+    A flask backend for the Chongqing University 135 HVAC project. It collect and manage temperature and humidity data from
+    different sources the Chongqing University worked with from 2019.
+
+    \vspace{-0.2in}
+    \begin{tabbing}
+        \hspace{2.4in}\= \hspace{0.9in}\= \kill
+        {\bf Chongqing University's HVAC frontend} \>                   \>\url{github.com/jummy233/135client-react}\\
+    \end{tabbing}\vspace{-30pt}
+    A react and typescript based frontend for the aforementioned project.
+
+    \vspace{-0.2in}
+    \begin{tabbing}
+        \hspace{2.4in}\= \hspace{0.9in}\= \kill
+        {\bf An optimizer for building design} \>               \>\url{github.com/jummy233/epMOO}\\
     \end{tabbing}\vspace{-30pt}
     An optimizer made for Chongqing University HVAC department
-    to design energy efficient buildings based on Python.
+    to design energy efficient buildings based on NSGAII genetic algorithm.
     It aimed to maxmize the comfortability of buildings while decrease the
     annual energy consumption.
 
-    \vspace{-0.2in}
-    \begin{tabbing}
-        \hspace{2.4in}\= \hspace{0.3in}\= \kill
-        {\bf Lisp interpreter} \>               \>\url{https://github.com/jummy233/llisp}\\
-    \end{tabbing}\vspace{-30pt}
-    A Python implemented lisp interpreter with REPL support and Python
-    function call api.
-
-    \vspace{-0.2in}
-    \begin{tabbing}
-        \hspace{2.4in}\= \hspace{0.3in}\= \kill
-        {\bf LIP Website} \>               \>\url{https://github.com/jummy233/lip-site}\\
-    \end{tabbing}\vspace{-30pt}
-    A dynamic website made for LIP --- a local community language teaching
-    project. It is a coroporated project with another contributor.
-    I am responsible for the backend web application and database design.
-
-    \vspace{-0.2in}
-    \begin{tabbing}
-        \hspace{2.3in}\= \hspace{0.3in}\= \kill
-        {\bf Minimal Turning Machining} \>               \>\url{https://github.com/jummy233/brainsavior}\\
-    \end{tabbing}\vspace{-33pt}
-    A minial turining complete language based on C.
-
-    \vspace{-0.01in}\\
-    and many more
-
 \section{SKILLS}
-    \textbf{Computer Science:}
-    \vspace{0.05in}\\
-    {\large E}xperienced with \textbf{Python, TypeScript}. \\
-    {\large F}amiliar with \textbf{Haskell, Racket, C++, C}. \\
-    {\large F}amiliar with \textbf{Linux}. \\
-    {\large F}amiliar with Machine Architecture, Network
-    Protocols and Compiling Technique. \\
-    {\large E}xperienced with \textbf{Flask}, \textbf{React}, \textbf{Vuejs}, and \textbf{Sqlite} for web development. \\
-    \textbf{Math:}
-    \vspace{0.05in}\\
-    {\large M}ath knowledge with Linear algebra abstract vector space and their applications, multivariable calculus, odinary differential equation, statistcs, linear programming, dynamic system, number theory. \\
-    \textbf{Language:}
-    \vspace{0.05in}\\
-    Have been living in \textbf{English} Speaking country for more than 3 years, received band 7 for IELTS in 2017. Native \textbf{Chinese} speaker. Currently learning
-    \textbf{Japanese}.
+    \begin{itemize}[leftmargin=-.2in]
+        \setlength\itemsep{-1em}
+
+        \item \textbf{Programming Language:} Experienced with CPython, TypeScript, C, C++, Haskell, Rust, Racket.\\
+        \item \textbf{CPython/C: 5 years of experience:} Familiar with flask web framework and sqlalchemy database ORM. Understand underlying Cpython data structures' implementation in C. Familiar with python concurrency model and performance optimization techniques. Familiar with gcc and clang\\
+        \item \textbf{Compiler:} Familiar with parsing techniques and some codegen optimization. Familiar with LLVM too chain, Worked on some babel AST code transformation project. \\
+        \item \textbf{Web:} Experienced with \textbf{Flask}, \textbf{React}, \textbf{Vuejs}, and \textbf{Sqlite} for web development. \\
+        \item \textbf{Math:} Linear algebra abstract vector space and their applications, multivariable calculus, ODE, statistcs, linear programming, dynamic system, number theory. \\
+        \item \textbf{Language:}
+    Have been living in \textbf{English} Speaking country for more than 3 years, received band 7 for IELTS in 2017. Native \textbf{Chinese} speaker. Currently learning \textbf{Japanese}.
+    \end{itemize}
 
 \section{WORK EXPERIENCES}
-    \textbf{2016 Summer:} Shanghai Liyang Software
+\begin{itemize}[leftmargin=-.2in]
+    \setlength\itemsep{-1em}
+
+    \item \textbf{2016 Summer:} Shanghai Liyang Software
     \vspace{0.05in}\\
     First time working for a tech company. \\
-    \textbf{2019 Summer:} Chongqing University HVAC department
+    \item \textbf{2019 Summer:} Chongqing University HVAC department
     \vspace{0.05in}\\
     Participated the Chinese government five-year plan ``Yangzi River area air conditioning and heating solution and its corresponding systems'' in the HVAC department (in civil engineering) of Chongqing University. Developed an optimization program to find the optimal building design to minimize the energy consumption and cost. Design and implemented the corresponding data demonstration web site.
+\end{itemize}
+
 
 \section{COMMUNITY EXPERIENCES}
     \textbf {2019 Summer:} Joined UBC programming competition.
