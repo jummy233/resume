@@ -8,19 +8,11 @@
 \usepackage{enumitem}
 \setlength{\textheight}{10in} % increase text height to fit on 1-page
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{tgbonum}
-
-
 \begin{document}
 \name{JINYANG YAO\\[12pt]}     % the \\[12pt] adds a blank
 				        % line after name
 
-\address{\textbf{Email:} jimmy123good@hotmail.com \\
-        \textbf{Github: }https://github.com/ailrk \\
-         \textbf{Blog:}    https://ailrk.github.io/home \\
-         \textbf{Contact:}  (250) 899 2600}
+\address{jimmy123good@hotmail.com \\ https://github.com/ailrk \\ https://ailrk.github.io/home \\ (250) 899 2600}
 \begin{resume}
 
 \section{EDUCATION}
@@ -43,6 +35,7 @@ The University of British Columbia, Kelowna, BC, Canada  \hspace{1.2in} \textbf{
 
 \vspace{-0.2in}
 \section{PERSONAL PROJECTS}
+\begin{itemize}[leftmargin=-.1in]
 
     \vspace{-0.1in}
     \begin{tabbing}
@@ -67,7 +60,7 @@ The University of British Columbia, Kelowna, BC, Canada  \hspace{1.2in} \textbf{
 
     \end{tabbing}\vspace{-30pt}
     A canvas command line client allows downloading canvas files asynchronously.
-
+\end{itemize}
 
 \section{SKILLS}
     \begin{itemize}[leftmargin=-.2in]
@@ -78,7 +71,6 @@ The University of British Columbia, Kelowna, BC, Canada  \hspace{1.2in} \textbf{
                   Familiar with python concurrency model and meta programming technics. \\
         \item \textbf{Typescript: 2 years of experience:} Understand the structural typing system, familiar with V8 optimization, understand Nodejs event loop system and it's corresponding reactor pattern. \\
         \item \textbf{Haskell 2 years of experience:} Familiar with functional programming. Understand GHC compilation process and some GHC optimization. \\
-        \item \textbf{C++: 2 years of experience} Familiar with C++ object model, lifetime, and template meta-programming. Can write type traits to provide compile time type checking. \\
         \item \textbf{Type theory:} Implemented simply typed lambda calculus. \\
         \item \textbf{Web development:} Familiar with \textbf{Flask}, \textbf{React},\textbf{Nodejs,} and \textbf{Sqlite}. \\
         \item \textbf{Compiler:} Familiar with parsing techniques and several optimization techniques. Worked with some llvm and babel AST code transformation. \\
